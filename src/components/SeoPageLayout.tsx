@@ -1,0 +1,189 @@
+"use client";
+import { SeoPageData } from "@/data/types";
+import Link from "next/link";
+import FAQ from "./FAQ";
+import CTASection from "./CTASection";
+import {
+  ArrowRight,
+  CheckCircle,
+  Heart,
+  Shield,
+  Star,
+  MessageCircle,
+} from "lucide-react";
+
+interface Props {
+  data: SeoPageData;
+}
+
+export default function SeoPageLayout({ data }: Props) {
+  return (
+    <>
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-brand-acik via-white to-brand-krem section-padding">
+        <div className="container-custom text-center max-w-4xl">
+          <div className="flex justify-center flex-wrap gap-2 mb-6">
+            {data.hero.badges.map((b) => (
+              <span key={b} className="badge">{b}</span>
+            ))}
+          </div>
+          <h1 className="font-display font-bold text-3xl md:text-4xl lg:text-5xl text-brand-koyu leading-tight">
+            {data.hero.headline}
+          </h1>
+          <p className="text-lg text-brand-gri leading-relaxed mt-6 max-w-2xl mx-auto">
+            {data.hero.subheadline}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <a href="#kayit" className="btn-primary">
+              Ucretsiz Okul Ziyareti
+            </a>
+            <a
+              href={`https://wa.me/902165551234?text=${encodeURIComponent("Merhaba, anaokulu hakkinda bilgi almak istiyorum.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-whatsapp"
+            >
+              <MessageCircle className="w-5 h-5" />
+              WhatsApp ile Bilgi Alin
+            </a>
+          </div>
+        </div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-turkuaz/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+      </section>
+
+      {/* Intro */}
+      <section className="section-padding bg-white">
+        <div className="container-custom max-w-3xl text-center">
+          <p className="text-brand-gri leading-relaxed text-lg">{data.intro}</p>
+        </div>
+      </section>
+
+      {/* Campus Cards */}
+      <section className="section-padding bg-brand-acik">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu">
+              3 Kampus, Tek Kalite Standardi
+            </h2>
+            <p className="text-brand-gri mt-3">
+              Her kampusumuz ayni yuksek standartta, farkli vurgularla egitim sunmaktadir.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {data.campusLinks.map((c) => (
+              <Link
+                key={c.slug}
+                href={c.slug}
+                className="card group hover:-translate-y-1 border border-brand-turkuaz/10"
+              >
+                <div className="aspect-[16/9] rounded-2xl placeholder-img mb-5 text-xs">
+                  Kampus fotografi
+                </div>
+                <h3 className="font-display font-semibold text-lg text-brand-koyu group-hover:text-brand-turkuaz transition-colors">
+                  {c.name}
+                </h3>
+                <p className="text-sm text-brand-gri mt-2">{c.highlight}</p>
+                <div className="flex items-center gap-1 text-brand-turkuaz text-sm font-medium mt-4">
+                  Kampusu Incele <ArrowRight className="w-4 h-4" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Methodology */}
+      <section className="section-padding bg-white">
+        <div className="container-custom max-w-4xl">
+          <div className="text-center mb-10">
+            <span className="badge mb-4">Egitim Yaklasimlari</span>
+            <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4">
+              {data.type === "kres"
+                ? "Kucuk Kasifler Programi"
+                : "Dunya Capinda Kanitlanmis Egitim Modeli"}
+            </h2>
+            <p className="text-brand-gri mt-4 leading-relaxed">
+              {data.sharedContent.methodology}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4">
+            {data.sharedContent.methodologyItems.map((item, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 p-4 rounded-xl bg-brand-acik"
+              >
+                <CheckCircle className="w-5 h-5 text-brand-yesil flex-shrink-0 mt-0.5" />
+                <span className="text-sm text-brand-koyu">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Health & Nutrition */}
+      <section className="section-padding bg-brand-acik">
+        <div className="container-custom max-w-4xl">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="card">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-brand-turkuaz/10 flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-brand-turkuaz" />
+                </div>
+                <h3 className="font-display font-semibold text-brand-koyu">
+                  Saglik Protokolu
+                </h3>
+              </div>
+              <p className="text-brand-gri text-sm leading-relaxed">
+                {data.sharedContent.healthProtocol}
+              </p>
+            </div>
+            <div className="card">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-brand-yesil/10 flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-brand-yesil" />
+                </div>
+                <h3 className="font-display font-semibold text-brand-koyu">
+                  Beslenme
+                </h3>
+              </div>
+              <p className="text-brand-gri text-sm leading-relaxed">
+                {data.sharedContent.nutrition}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="py-12 bg-brand-koyu text-white">
+        <div className="container-custom">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            {[
+              { value: "24", label: "Yil Deneyim" },
+              { value: "5.000+", label: "Mezun Aile" },
+              { value: "%97", label: "Veli Memnuniyeti" },
+              { value: "3", label: "Kampus" },
+            ].map((s, i) => (
+              <div key={i}>
+                <div className="font-display font-bold text-3xl text-brand-turkuaz">
+                  {s.value}
+                </div>
+                <div className="text-xs text-gray-400 mt-1">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <FAQ items={data.faq} />
+
+      {/* CTA */}
+      <CTASection
+        data={{ headline: data.ctaSection.headline, subtext: data.ctaSection.subtext }}
+        campusName="Atasehir"
+      />
+    </>
+  );
+}
