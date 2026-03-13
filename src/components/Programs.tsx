@@ -32,8 +32,8 @@ export default function Programs({ programs }: Props) {
               onClick={() => setActive(i)}
               className={`px-6 py-3 rounded-2xl font-semibold text-sm transition-all ${
                 active === i
-                  ? "bg-brand-turkuaz text-white shadow-lg shadow-brand-turkuaz/25"
-                  : "bg-white text-brand-koyu hover:bg-brand-turkuaz/5 border border-gray-200"
+                  ? "bg-brand-pembe text-white shadow-lg shadow-brand-pembe/25"
+                  : "bg-white text-brand-koyu hover:bg-brand-pembe/5 border border-gray-200"
               }`}
             >
               {p.age}
@@ -47,7 +47,7 @@ export default function Programs({ programs }: Props) {
             <h3 className="font-display font-bold text-xl text-brand-koyu">
               {prog.title}
             </h3>
-            <p className="text-sm text-brand-turkuaz font-medium mt-1">
+            <p className="text-sm text-brand-pembe font-medium mt-1">
               {prog.subtitle}
             </p>
           </div>

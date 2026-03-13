@@ -22,7 +22,7 @@ export default function Header() {
       <div className="container-custom flex items-center justify-between h-16 md:h-20 px-4 md:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-turkuaz to-brand-yesil flex items-center justify-center text-white font-bold text-lg font-display">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-pembe to-brand-mor flex items-center justify-center text-white font-bold text-lg font-display">
             DŞ
           </div>
           <div className="hidden sm:block">
@@ -39,7 +39,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="px-4 py-2 text-sm font-medium text-brand-koyu/80 hover:text-brand-turkuaz rounded-lg hover:bg-brand-turkuaz/5 transition-colors"
+              className="px-4 py-2 text-sm font-medium text-brand-koyu/80 hover:text-brand-pembe rounded-lg hover:bg-brand-pembe/5 transition-colors"
             >
               {item.label}
             </Link>
@@ -49,7 +49,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="px-3 py-2 text-sm font-medium text-brand-gri hover:text-brand-turkuaz rounded-lg hover:bg-brand-turkuaz/5 transition-colors"
+              className="px-3 py-2 text-sm font-medium text-brand-gri hover:text-brand-pembe rounded-lg hover:bg-brand-pembe/5 transition-colors"
             >
               {item.label}
             </Link>
@@ -60,14 +60,14 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-3">
           <a
             href="tel:+902165551234"
-            className="flex items-center gap-2 text-sm text-brand-gri hover:text-brand-turkuaz transition-colors"
+            className="flex items-center gap-2 text-sm text-brand-gri hover:text-brand-pembe transition-colors"
           >
             <Phone className="w-4 h-4" />
             <span>0216 555 12 34</span>
           </a>
           <Link
             href="#kayit"
-            className="px-5 py-2.5 bg-brand-turkuaz text-white text-sm font-semibold rounded-xl hover:bg-brand-turkuaz/90 transition-all"
+            className="px-5 py-2.5 bg-brand-pembe text-white text-sm font-semibold rounded-xl hover:bg-brand-pembe/90 transition-all"
           >
             Ziyaret Randevusu
           </Link>
@@ -95,7 +95,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="px-4 py-3 text-brand-koyu font-medium rounded-lg hover:bg-brand-turkuaz/5"
+                className="px-4 py-3 text-brand-koyu font-medium rounded-lg hover:bg-brand-pembe/5"
               >
                 {item.label}
               </Link>
@@ -108,7 +108,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="px-4 py-3 text-brand-koyu font-medium rounded-lg hover:bg-brand-turkuaz/5"
+                className="px-4 py-3 text-brand-koyu font-medium rounded-lg hover:bg-brand-pembe/5"
               >
                 {item.label}
               </Link>
@@ -118,7 +118,7 @@ export default function Header() {
             <Link
               href="#kayit"
               onClick={() => setOpen(false)}
-              className="block w-full text-center px-5 py-3 bg-brand-turkuaz text-white font-semibold rounded-xl"
+              className="block w-full text-center px-5 py-3 bg-brand-pembe text-white font-semibold rounded-xl"
             >
               Ziyaret Randevusu
             </Link>

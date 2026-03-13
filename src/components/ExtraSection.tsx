@@ -9,7 +9,7 @@ export default function ExtraSection({ data }: Props) {
   return (
     <section className="section-padding bg-white">
       <div className="container-custom max-w-4xl">
-        <div className="card bg-gradient-to-br from-brand-acik to-brand-krem border border-brand-turkuaz/10">
+        <div className="card bg-gradient-to-br from-brand-acik to-brand-krem border border-brand-pembe/10">
           <h2 className="font-display font-bold text-xl md:text-2xl text-brand-koyu mb-3">
             {data.title}
           </h2>

@@ -59,10 +59,10 @@ export default function Hero({ data, campusName }: Props) {
                 />
               </div>
             ) : (
-              <div className="aspect-[4/3] rounded-3xl placeholder-img text-center p-8 border-2 border-dashed border-brand-turkuaz/30">
+              <div className="aspect-[4/3] rounded-3xl placeholder-img text-center p-8 border-2 border-dashed border-brand-pembe/30">
                 <div className="flex flex-col items-center justify-center h-full gap-4">
-                  <div className="w-16 h-16 rounded-full bg-brand-turkuaz/20 flex items-center justify-center">
-                    <Play className="w-8 h-8 text-brand-turkuaz ml-1" />
+                  <div className="w-16 h-16 rounded-full bg-brand-pembe/20 flex items-center justify-center">
+                    <Play className="w-8 h-8 text-brand-pembe ml-1" />
                   </div>
                   <p className="text-sm text-brand-gri font-medium">
                     {data.imageAlt}
@@ -73,15 +73,15 @@ export default function Hero({ data, campusName }: Props) {
             {/* Floating badge */}
             <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-5 py-3 border border-gray-100">
               <div className="text-xs text-brand-gri">Deneyim</div>
-              <div className="font-display font-bold text-2xl text-brand-turkuaz">24 Yıl</div>
+              <div className="font-display font-bold text-2xl text-brand-pembe">24 Yıl</div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Decorative */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-brand-turkuaz/5 rounded-full -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-yesil/5 rounded-full translate-y-1/2 -translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-brand-pembe/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-mor/5 rounded-full translate-y-1/2 -translate-x-1/2" />
     </section>
   );
 }

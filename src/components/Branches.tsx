@@ -31,7 +31,7 @@ export default function Branches({ data, campusName }: Props) {
                     key={branch}
                     className={`flex items-center gap-3 p-3 rounded-xl transition-colors ${
                       isSpotlight
-                        ? "bg-brand-turkuaz/10 border border-brand-turkuaz/20"
+                        ? "bg-brand-pembe/10 border border-brand-pembe/20"
                         : "bg-gray-50 border border-gray-100"
                     }`}
                   >
@@ -40,7 +40,7 @@ export default function Branches({ data, campusName }: Props) {
                     )}
                     <span
                       className={`text-sm font-medium ${
-                        isSpotlight ? "text-brand-turkuaz" : "text-brand-koyu"
+                        isSpotlight ? "text-brand-pembe" : "text-brand-koyu"
                       }`}
                     >
                       {branch}
@@ -65,12 +65,12 @@ export default function Branches({ data, campusName }: Props) {
                   className="flex items-center gap-4 py-3 border-b border-gray-100 last:border-0 group hover:bg-brand-acik/50 px-3 rounded-lg transition-colors"
                 >
                   <div className="flex items-center gap-2 w-16 flex-shrink-0">
-                    <Clock className="w-3.5 h-3.5 text-brand-turkuaz" />
-                    <span className="text-sm font-mono font-semibold text-brand-turkuaz">
+                    <Clock className="w-3.5 h-3.5 text-brand-pembe" />
+                    <span className="text-sm font-mono font-semibold text-brand-pembe">
                       {item.time}
                     </span>
                   </div>
-                  <div className="w-2 h-2 rounded-full bg-brand-turkuaz/30 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-brand-pembe/30 flex-shrink-0" />
                   <span className="text-sm text-brand-koyu">{item.activity}</span>
                 </div>
               ))}

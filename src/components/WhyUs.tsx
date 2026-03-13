@@ -44,8 +44,8 @@ export default function WhyUs({ data, campusName }: Props) {
             return (
               <div key={i} className="card group hover:-translate-y-1">
                 <div className="flex items-start gap-5">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-turkuaz/10 to-brand-yesil/10 flex items-center justify-center flex-shrink-0 group-hover:from-brand-turkuaz/20 group-hover:to-brand-yesil/20 transition-colors">
-                    <Icon className="w-7 h-7 text-brand-turkuaz" />
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-pembe/10 to-brand-mor/10 flex items-center justify-center flex-shrink-0 group-hover:from-brand-pembe/20 group-hover:to-brand-mor/20 transition-colors">
+                    <Icon className="w-7 h-7 text-brand-pembe" />
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-lg text-brand-koyu mb-2">

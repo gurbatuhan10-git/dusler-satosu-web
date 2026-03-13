@@ -31,8 +31,8 @@ export default function QuickInfo({ data }: Props) {
                 key={key}
                 className="bg-white rounded-2xl shadow-md p-5 flex items-start gap-4 hover:shadow-lg transition-shadow border border-gray-50"
               >
-                <div className="w-11 h-11 rounded-xl bg-brand-turkuaz/10 flex items-center justify-center flex-shrink-0">
-                  <Icon className="w-5 h-5 text-brand-turkuaz" />
+                <div className="w-11 h-11 rounded-xl bg-brand-pembe/10 flex items-center justify-center flex-shrink-0">
+                  <Icon className="w-5 h-5 text-brand-pembe" />
                 </div>
                 <div>
                   <div className="text-xs text-brand-gri font-medium uppercase tracking-wider">

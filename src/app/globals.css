@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @layer base {
   html {
@@ -15,12 +15,12 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-brand-turkuaz text-white font-semibold rounded-2xl
-           hover:bg-brand-turkuaz/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-8 py-4 bg-brand-pembe text-white font-semibold rounded-2xl
+           hover:bg-brand-pembe/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5;
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-brand-turkuaz text-brand-turkuaz font-semibold rounded-2xl
-           hover:bg-brand-turkuaz hover:text-white transition-all duration-300;
+    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-brand-pembe text-brand-pembe font-semibold rounded-2xl
+           hover:bg-brand-pembe hover:text-white transition-all duration-300;
   }
   .btn-whatsapp {
     @apply inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#25D366] text-white font-semibold rounded-2xl
@@ -36,11 +36,11 @@
     @apply bg-white rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 p-6 md:p-8;
   }
   .badge {
-    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-brand-turkuaz/10 text-brand-turkuaz text-sm font-medium rounded-full;
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-brand-pembe/10 text-brand-pembe text-sm font-medium rounded-full;
   }
 }
 
 /* Placeholder image styling */
 .placeholder-img {
-  @apply bg-gradient-to-br from-brand-turkuaz/20 to-brand-yesil/20 flex items-center justify-center text-brand-gri;
+  @apply bg-gradient-to-br from-brand-pembe/20 to-brand-mor/20 flex items-center justify-center text-brand-gri;
 }

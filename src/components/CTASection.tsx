@@ -42,7 +42,7 @@ export default function CTASection({ data, campusName }: Props) {
   return (
     <section
       id="kayit"
-      className="section-padding bg-gradient-to-br from-brand-turkuaz to-brand-turkuaz/80"
+      className="section-padding bg-gradient-to-br from-brand-pembe to-brand-pembe/80"
     >
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -92,7 +92,7 @@ export default function CTASection({ data, campusName }: Props) {
                       placeholder="Adınız Soyadınız"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-turkuaz focus:ring-2 focus:ring-brand-turkuaz/20 outline-none text-sm transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-pembe focus:ring-2 focus:ring-brand-pembe/20 outline-none text-sm transition-all"
                     />
                   </div>
 
@@ -106,7 +106,7 @@ export default function CTASection({ data, campusName }: Props) {
                       placeholder="05XX XXX XX XX"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-turkuaz focus:ring-2 focus:ring-brand-turkuaz/20 outline-none text-sm transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-pembe focus:ring-2 focus:ring-brand-pembe/20 outline-none text-sm transition-all"
                     />
                   </div>
 
@@ -117,7 +117,7 @@ export default function CTASection({ data, campusName }: Props) {
                     <select
                       value={formData.childAge}
                       onChange={(e) => setFormData({ ...formData, childAge: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-turkuaz focus:ring-2 focus:ring-brand-turkuaz/20 outline-none text-sm transition-all bg-white"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-pembe focus:ring-2 focus:ring-brand-pembe/20 outline-none text-sm transition-all bg-white"
                     >
                       <option value="">Seçiniz</option>
                       <option value="2">2 yaş</option>
@@ -135,7 +135,7 @@ export default function CTASection({ data, campusName }: Props) {
                     <select
                       value={formData.campus}
                       onChange={(e) => setFormData({ ...formData, campus: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-turkuaz focus:ring-2 focus:ring-brand-turkuaz/20 outline-none text-sm transition-all bg-white"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-pembe focus:ring-2 focus:ring-brand-pembe/20 outline-none text-sm transition-all bg-white"
                     >
                       <option value="">Seçiniz</option>
                       <option value="bati-atasehir">Batı Ataşehir</option>
@@ -153,7 +153,7 @@ export default function CTASection({ data, campusName }: Props) {
                   <button
                     type="submit"
                     disabled={formState === "submitting"}
-                    className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-brand-turkuaz text-white font-semibold rounded-2xl hover:bg-brand-turkuaz/90 transition-all shadow-lg hover:shadow-xl mt-2 disabled:opacity-70"
+                    className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-brand-pembe text-white font-semibold rounded-2xl hover:bg-brand-pembe/90 transition-all shadow-lg hover:shadow-xl mt-2 disabled:opacity-70"
                   >
                     {formState === "submitting" ? (
                       <>

@@ -7,7 +7,7 @@ export default function MobileStickyCTA() {
       <div className="grid grid-cols-2 divide-x divide-gray-200">
         <a
           href="tel:+902165551234"
-          className="flex items-center justify-center gap-2 py-3.5 text-sm font-semibold text-brand-turkuaz"
+          className="flex items-center justify-center gap-2 py-3.5 text-sm font-semibold text-brand-pembe"
         >
           <Phone className="w-4 h-4" />
           Hemen Ara

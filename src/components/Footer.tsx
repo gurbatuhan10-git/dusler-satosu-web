@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-turkuaz to-brand-yesil flex items-center justify-center text-white font-bold text-lg font-display">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-pembe to-brand-mor flex items-center justify-center text-white font-bold text-lg font-display">
                 DŞ
               </div>
               <div>
@@ -25,23 +25,23 @@ export default function Footer() {
 
           {/* Campuses */}
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-turkuaz">
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-pembe">
               Kampüslerimiz
             </h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li>
                 <Link href="/kampusler/bati-atasehir" className="hover:text-white transition-colors flex items-center gap-2">
-                  <MapPin className="w-3.5 h-3.5 text-brand-turkuaz" /> Batı Ataşehir
+                  <MapPin className="w-3.5 h-3.5 text-brand-pembe" /> Batı Ataşehir
                 </Link>
               </li>
               <li>
                 <Link href="/kampusler/dogu-atasehir" className="hover:text-white transition-colors flex items-center gap-2">
-                  <MapPin className="w-3.5 h-3.5 text-brand-turkuaz" /> Doğu Ataşehir
+                  <MapPin className="w-3.5 h-3.5 text-brand-pembe" /> Doğu Ataşehir
                 </Link>
               </li>
               <li>
                 <Link href="/kampusler/koc-universitesi" className="hover:text-white transition-colors flex items-center gap-2">
-                  <MapPin className="w-3.5 h-3.5 text-brand-turkuaz" /> Koç Üniversitesi
+                  <MapPin className="w-3.5 h-3.5 text-brand-pembe" /> Koç Üniversitesi
                 </Link>
               </li>
             </ul>
@@ -49,32 +49,32 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-turkuaz">
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-pembe">
               İletişim
             </h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-center gap-2">
-                <Phone className="w-3.5 h-3.5 text-brand-turkuaz" /> 0216 555 12 34
+                <Phone className="w-3.5 h-3.5 text-brand-pembe" /> 0216 555 12 34
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-brand-turkuaz" /> info@duslersatosu.com
+                <Mail className="w-3.5 h-3.5 text-brand-pembe" /> info@duslersatosu.com
               </li>
             </ul>
           </div>
 
           {/* Social */}
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-turkuaz">
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-brand-pembe">
               Bizi Takip Edin
             </h4>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-turkuaz flex items-center justify-center transition-colors" aria-label="Instagram">
+              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-pembe flex items-center justify-center transition-colors" aria-label="Instagram">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-turkuaz flex items-center justify-center transition-colors" aria-label="Facebook">
+              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-pembe flex items-center justify-center transition-colors" aria-label="Facebook">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-turkuaz flex items-center justify-center transition-colors" aria-label="YouTube">
+              <a href="#" className="w-10 h-10 rounded-xl bg-white/10 hover:bg-brand-pembe flex items-center justify-center transition-colors" aria-label="YouTube">
                 <Youtube className="w-4 h-4" />
               </a>
             </div>

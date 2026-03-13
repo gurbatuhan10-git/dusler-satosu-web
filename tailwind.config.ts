@@ -6,18 +6,19 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          turkuaz: "#4ABDBD",
-          fusya: "#E91E8C",
-          turuncu: "#F7941D",
+          pembe: "#f96a9a",
+          mor: "#56509f",
+          turuncu: "#ff5f2e",
+          mavi: "#439fdf",
           yesil: "#8DC63F",
-          koyu: "#2D3748",
-          gri: "#718096",
-          acik: "#F7FAFC",
+          koyu: "#033b62",
+          gri: "#666666",
+          acik: "#e2eaf1",
           krem: "#FFFBF0",
         },
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Source Sans 3", "Inter", "system-ui", "sans-serif"],
         display: ["Poppins", "system-ui", "sans-serif"],
       },
     },

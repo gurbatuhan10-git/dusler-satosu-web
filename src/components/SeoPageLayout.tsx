@@ -48,7 +48,7 @@ export default function SeoPageLayout({ data }: Props) {
             </a>
           </div>
         </div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-turkuaz/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-pembe/5 rounded-full -translate-y-1/2 translate-x-1/2" />
       </section>
 
       {/* Intro */}
@@ -74,7 +74,7 @@ export default function SeoPageLayout({ data }: Props) {
               <Link
                 key={c.slug}
                 href={c.slug}
-                className="card group hover:-translate-y-1 border border-brand-turkuaz/10"
+                className="card group hover:-translate-y-1 border border-brand-pembe/10"
               >
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden mb-5">
                   {c.image ? (
@@ -83,11 +83,11 @@ export default function SeoPageLayout({ data }: Props) {
                     <div className="w-full h-full placeholder-img text-xs">Kampüs fotoğrafı</div>
                   )}
                 </div>
-                <h3 className="font-display font-semibold text-lg text-brand-koyu group-hover:text-brand-turkuaz transition-colors">
+                <h3 className="font-display font-semibold text-lg text-brand-koyu group-hover:text-brand-pembe transition-colors">
                   {c.name}
                 </h3>
                 <p className="text-sm text-brand-gri mt-2">{c.highlight}</p>
-                <div className="flex items-center gap-1 text-brand-turkuaz text-sm font-medium mt-4">
+                <div className="flex items-center gap-1 text-brand-pembe text-sm font-medium mt-4">
                   Kampüsü İncele <ArrowRight className="w-4 h-4" />
                 </div>
               </Link>
@@ -117,7 +117,7 @@ export default function SeoPageLayout({ data }: Props) {
                 key={i}
                 className="flex items-start gap-3 p-4 rounded-xl bg-brand-acik"
               >
-                <CheckCircle className="w-5 h-5 text-brand-yesil flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-brand-mor flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-brand-koyu">{item}</span>
               </div>
             ))}
@@ -131,8 +131,8 @@ export default function SeoPageLayout({ data }: Props) {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-brand-turkuaz/10 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-brand-turkuaz" />
+                <div className="w-10 h-10 rounded-xl bg-brand-pembe/10 flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-brand-pembe" />
                 </div>
                 <h3 className="font-display font-semibold text-brand-koyu">
                   Sağlık Protokolü
@@ -144,8 +144,8 @@ export default function SeoPageLayout({ data }: Props) {
             </div>
             <div className="card">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-brand-yesil/10 flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-brand-yesil" />
+                <div className="w-10 h-10 rounded-xl bg-brand-mor/10 flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-brand-mor" />
                 </div>
                 <h3 className="font-display font-semibold text-brand-koyu">
                   Beslenme
@@ -170,7 +170,7 @@ export default function SeoPageLayout({ data }: Props) {
               { value: "3", label: "Kampüs" },
             ].map((s, i) => (
               <div key={i}>
-                <div className="font-display font-bold text-3xl text-brand-turkuaz">
+                <div className="font-display font-bold text-3xl text-brand-pembe">
                   {s.value}
                 </div>
                 <div className="text-xs text-gray-400 mt-1">{s.label}</div>
