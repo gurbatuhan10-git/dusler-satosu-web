@@ -13,7 +13,7 @@ export default function FAQ({ items }: Props) {
     <section className="section-padding bg-brand-acik">
       <div className="container-custom max-w-3xl">
         <div className="text-center mb-10">
-          <span className="badge mb-4">Sik Sorulan Sorular</span>
+          <span className="badge mb-4">Sık Sorulan Sorular</span>
           <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4">
             Merak Ettikleriniz
           </h2>

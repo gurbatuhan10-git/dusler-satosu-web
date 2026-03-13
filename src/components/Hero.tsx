@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CampusData } from "@/data/types";
 import { Play, MessageCircle } from "lucide-react";
 
@@ -33,7 +34,7 @@ export default function Hero({ data, campusName }: Props) {
                 {data.cta1}
               </a>
               <a
-                href={`https://wa.me/902165551234?text=${encodeURIComponent(`Merhaba, ${campusName} kampusu hakkinda bilgi almak istiyorum.`)}`}
+                href={`https://wa.me/902165551234?text=${encodeURIComponent(`Merhaba, ${campusName} kampüsü hakkında bilgi almak istiyorum.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp"
@@ -44,25 +45,35 @@ export default function Hero({ data, campusName }: Props) {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-3xl placeholder-img text-center p-8 border-2 border-dashed border-brand-turkuaz/30">
-              <div className="flex flex-col items-center justify-center h-full gap-4">
-                <div className="w-16 h-16 rounded-full bg-brand-turkuaz/20 flex items-center justify-center">
-                  <Play className="w-8 h-8 text-brand-turkuaz ml-1" />
-                </div>
-                <p className="text-sm text-brand-gri font-medium">
-                  {data.imageAlt}
-                </p>
-                <p className="text-xs text-brand-gri/60">
-                  Profesyonel fotograf veya 360° sanal tur
-                </p>
+            {data.heroImage ? (
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src={data.heroImage}
+                  alt={data.imageAlt}
+                  width={800}
+                  height={600}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
-            </div>
+            ) : (
+              <div className="aspect-[4/3] rounded-3xl placeholder-img text-center p-8 border-2 border-dashed border-brand-turkuaz/30">
+                <div className="flex flex-col items-center justify-center h-full gap-4">
+                  <div className="w-16 h-16 rounded-full bg-brand-turkuaz/20 flex items-center justify-center">
+                    <Play className="w-8 h-8 text-brand-turkuaz ml-1" />
+                  </div>
+                  <p className="text-sm text-brand-gri font-medium">
+                    {data.imageAlt}
+                  </p>
+                </div>
+              </div>
+            )}
             {/* Floating badge */}
             <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-5 py-3 border border-gray-100">
               <div className="text-xs text-brand-gri">Deneyim</div>
-              <div className="font-display font-bold text-2xl text-brand-turkuaz">24 Yil</div>
+              <div className="font-display font-bold text-2xl text-brand-turkuaz">24 Yıl</div>
             </div>
           </div>
         </div>

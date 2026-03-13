@@ -59,7 +59,7 @@ export default function SocialProof({ data }: Props) {
           <div className="mt-12 max-w-3xl mx-auto text-center">
             <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
               <h3 className="font-display font-semibold text-lg text-brand-turkuaz mb-2">
-                Aile Danismanligi Hizmeti
+                Aile Danışmanlığı Hizmeti
               </h3>
               <p className="text-gray-400 text-sm leading-relaxed">
                 {data.familyConsulting}

@@ -13,9 +13,9 @@ const icons = {
 };
 
 const labels: Record<string, string> = {
-  yas: "Yas Grubu",
-  saat: "Calisma Saatleri",
-  sinifMevcudu: "Sinif Mevcudu",
+  yas: "Yaş Grubu",
+  saat: "Çalışma Saatleri",
+  sinifMevcudu: "Sınıf Mevcudu",
   konum: "Konum",
 };
 

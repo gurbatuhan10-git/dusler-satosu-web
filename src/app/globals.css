@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply text-brand-koyu antialiased;
+    @apply text-brand-koyu antialiased pb-14 md:pb-0;
   }
 }
 

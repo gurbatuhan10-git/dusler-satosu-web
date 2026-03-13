@@ -35,16 +35,16 @@ export default function SeoPageLayout({ data }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a href="#kayit" className="btn-primary">
-              Ucretsiz Okul Ziyareti
+              Ücretsiz Okul Ziyareti
             </a>
             <a
-              href={`https://wa.me/902165551234?text=${encodeURIComponent("Merhaba, anaokulu hakkinda bilgi almak istiyorum.")}`}
+              href={`https://wa.me/902165551234?text=${encodeURIComponent("Merhaba, anaokulu hakkında bilgi almak istiyorum.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp"
             >
               <MessageCircle className="w-5 h-5" />
-              WhatsApp ile Bilgi Alin
+              WhatsApp ile Bilgi Alın
             </a>
           </div>
         </div>
@@ -63,10 +63,10 @@ export default function SeoPageLayout({ data }: Props) {
         <div className="container-custom">
           <div className="text-center mb-10">
             <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu">
-              3 Kampus, Tek Kalite Standardi
+              3 Kampüs, Tek Kalite Standardı
             </h2>
             <p className="text-brand-gri mt-3">
-              Her kampusumuz ayni yuksek standartta, farkli vurgularla egitim sunmaktadir.
+              Her kampüsümüz aynı yüksek standartta, farklı vurgularla eğitim sunmaktadır.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -76,15 +76,19 @@ export default function SeoPageLayout({ data }: Props) {
                 href={c.slug}
                 className="card group hover:-translate-y-1 border border-brand-turkuaz/10"
               >
-                <div className="aspect-[16/9] rounded-2xl placeholder-img mb-5 text-xs">
-                  Kampus fotografi
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden mb-5">
+                  {c.image ? (
+                    <img src={c.image} alt={c.name} className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="w-full h-full placeholder-img text-xs">Kampüs fotoğrafı</div>
+                  )}
                 </div>
                 <h3 className="font-display font-semibold text-lg text-brand-koyu group-hover:text-brand-turkuaz transition-colors">
                   {c.name}
                 </h3>
                 <p className="text-sm text-brand-gri mt-2">{c.highlight}</p>
                 <div className="flex items-center gap-1 text-brand-turkuaz text-sm font-medium mt-4">
-                  Kampusu Incele <ArrowRight className="w-4 h-4" />
+                  Kampüsü İncele <ArrowRight className="w-4 h-4" />
                 </div>
               </Link>
             ))}
@@ -96,11 +100,11 @@ export default function SeoPageLayout({ data }: Props) {
       <section className="section-padding bg-white">
         <div className="container-custom max-w-4xl">
           <div className="text-center mb-10">
-            <span className="badge mb-4">Egitim Yaklasimlari</span>
+            <span className="badge mb-4">Eğitim Yaklaşımları</span>
             <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4">
               {data.type === "kres"
-                ? "Kucuk Kasifler Programi"
-                : "Dunya Capinda Kanitlanmis Egitim Modeli"}
+                ? "Küçük Kâşifler Programı"
+                : "Dünya Çapında Kanıtlanmış Eğitim Modeli"}
             </h2>
             <p className="text-brand-gri mt-4 leading-relaxed">
               {data.sharedContent.methodology}
@@ -131,7 +135,7 @@ export default function SeoPageLayout({ data }: Props) {
                   <Shield className="w-5 h-5 text-brand-turkuaz" />
                 </div>
                 <h3 className="font-display font-semibold text-brand-koyu">
-                  Saglik Protokolu
+                  Sağlık Protokolü
                 </h3>
               </div>
               <p className="text-brand-gri text-sm leading-relaxed">
@@ -160,10 +164,10 @@ export default function SeoPageLayout({ data }: Props) {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "24", label: "Yil Deneyim" },
+              { value: "24", label: "Yıl Deneyim" },
               { value: "5.000+", label: "Mezun Aile" },
               { value: "%97", label: "Veli Memnuniyeti" },
-              { value: "3", label: "Kampus" },
+              { value: "3", label: "Kampüs" },
             ].map((s, i) => (
               <div key={i}>
                 <div className="font-display font-bold text-3xl text-brand-turkuaz">
@@ -182,7 +186,7 @@ export default function SeoPageLayout({ data }: Props) {
       {/* CTA */}
       <CTASection
         data={{ headline: data.ctaSection.headline, subtext: data.ctaSection.subtext }}
-        campusName="Atasehir"
+        campusName="Ataşehir"
       />
     </>
   );

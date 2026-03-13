@@ -33,7 +33,7 @@ export default function WhyUs({ data, campusName }: Props) {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="badge mb-4">Neden Biz?</span>
           <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4">
-            Neden Dusler Satosu {campusName}?
+            Neden Düşler Şatosu {campusName}?
           </h2>
           <p className="text-brand-gri mt-4 leading-relaxed">{data.intro}</p>
         </div>

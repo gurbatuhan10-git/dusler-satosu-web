@@ -4,151 +4,157 @@ import { sharedFaq } from "./shared";
 export const atasehirAnaokulu: SeoPageData = {
   slug: "atasehir-anaokulu",
   type: "anaokulu",
-  metaTitle: "Atasehir Anaokulu | Dusler Satosu — 24 Yillik Deneyim, 3 Kampus",
+  metaTitle: "Ataşehir Anaokulu | Düşler Şatosu — 24 Yıllık Deneyim, 3 Kampüs",
   metaDescription:
-    "Atasehir'de en iyi anaokulu arayanlar icin: 24 yillik deneyim, uzman psikolog kadrosu, bilimsel egitim programlari. 3 kampuste ucretsiz okul ziyareti.",
+    "Ataşehir'de en iyi anaokulu arayanlar için: 24 yıllık deneyim, uzman psikolog kadrosu, bilimsel eğitim programları. 3 kampüste ücretsiz okul ziyareti.",
 
   hero: {
-    headline: "Atasehir'de Anaokulu Arayanlar Icin Dogru Adres",
+    headline: "Ataşehir'de Anaokulu Arayanlar İçin Doğru Adres",
     subheadline:
-      "24 yildir Atasehir'de ailelerin guvenini kazanan Dusler Satosu, uc kampusuyle cocugunuz icin en uygun egitim ortamini sunuyor.",
+      "24 yıldır Ataşehir'de ailelerin güvenini kazanan Düşler Şatosu, üç kampüsüyle çocuğunuz için en uygun eğitim ortamını sunuyor.",
     badges: [
-      "MEB Onayli",
-      "24 Yil Deneyim",
-      "3 Kampus",
+      "MEB Onaylı",
+      "24 Yıl Deneyim",
+      "3 Kampüs",
       "Uzman Psikolog Kadrosu",
     ],
   },
 
   intro:
-    "Erken cocukluk donemi, insan yasaminin en kritik gelisim penceresidir. Bu donemde alinan nitelikli egitim, cocugunuzun sosyal, duygusal ve bilissel gelisiminin temelini atar. Dusler Satosu olarak 24 yildir bu sorumlulugu bilincle tasiyoruz.",
+    "Erken çocukluk dönemi, insan yaşamının en kritik gelişim penceresidir. Bu dönemde alınan nitelikli eğitim, çocuğunuzun sosyal, duygusal ve bilişsel gelişiminin temelini atar. Düşler Şatosu olarak 24 yıldır bu sorumluluğu bilinçle taşıyoruz.",
 
   campusLinks: [
     {
-      name: "Bati Atasehir Kampusu",
+      name: "Batı Ataşehir Kampüsü",
       slug: "/kampusler/bati-atasehir",
-      highlight: "Ingilizce ve GEMS Bilim Programi odakli",
+      highlight: "İngilizce ve GEMS Bilim Programı odaklı",
+      image: "/images/card-bati-atasehir.jpg",
     },
     {
-      name: "Dogu Atasehir Kampusu",
+      name: "Doğu Ataşehir Kampüsü",
       slug: "/kampusler/dogu-atasehir",
-      highlight: "Drama ve Muzik odakli, merkezi konum",
+      highlight: "Drama ve Müzik odaklı, merkezi konum",
+      image: "/images/card-dogu-atasehir.jpg",
     },
     {
-      name: "Koc Universitesi Kampusu",
+      name: "Koç Üniversitesi Kampüsü",
       slug: "/kampusler/koc-universitesi",
-      highlight: "Kampus ekosistemi, Fen ve Doga odakli",
+      highlight: "Kampüs ekosistemi, Fen ve Doğa odaklı",
+      image: "/images/card-koc-universitesi.jpg",
     },
   ],
 
   sharedContent: {
     methodology:
-      "Dusler Satosu'nun egitim modeli, dunya capinda kanitlanmis yaklasimlardan beslenen ozgun bir sentezdir.",
+      "Düşler Şatosu'nun eğitim modeli, dünya çapında kanıtlanmış yaklaşımlardan beslenen özgün bir sentezdir.",
     methodologyItems: [
-      "High-Scope: Cocugun aktif katilimiyla ogrenme",
-      "Reggio Emilia: Cevreden ilham alan proje bazli egitim",
-      "Montessori: Bagimsizlik ve oz-duzenleme",
-      "Waldorf: Yaraticilik ve hayal gucu",
+      "High-Scope: Çocuğun aktif katılımıyla öğrenme",
+      "Reggio Emilia: Çevreden ilham alan proje bazlı eğitim",
+      "Montessori: Bağımsızlık ve öz-düzenleme",
+      "Waldorf: Yaratıcılık ve hayal gücü",
     ],
     healthProtocol:
-      "Her kampusumuzde okul hemsiresi gorev yapmaktadir. Duzenli saglik taramasi, hijyen protokolleri ve acil durum planlari uygulanir.",
+      "Her kampüsümüzde okul hemşiresi görev yapmaktadır. Düzenli sağlık taraması, hijyen protokolleri ve acil durum planları uygulanır.",
     nutrition:
-      "Diyetisyen esliginde hazirlanan mevsimsel menu. Menude tavuk yer almamaktadir. Alerji ve ozel beslenme gereksinimleri bireysel olarak karsilanir.",
+      "Diyetisyen eşliğinde hazırlanan mevsimsel menü. Menüde tavuk yer almamaktadır. Alerji ve özel beslenme gereksinimleri bireysel olarak karşılanır.",
   },
 
   faq: [
     ...sharedFaq,
     {
-      question: "Hangi kampus cocugum icin uygun?",
+      question: "Hangi kampüs çocuğum için uygun?",
       answer:
-        "Her kampusumuz ayni yuksek standartlarda egitim sunar, ancak farkli vurgulara sahiptir. Ucretsiz okul ziyaretiyle kampusleri yerinde gorebilir, cocugunuz icin en uygun secimi birlikte yapabiliriz.",
+        "Her kampüsümüz aynı yüksek standartlarda eğitim sunar, ancak farklı vurgulara sahiptir. Ücretsiz okul ziyaretiyle kampüsleri yerinde görebilir, çocuğunuz için en uygun seçimi birlikte yapabiliriz.",
     },
   ],
 
   ctaSection: {
-    headline: "Cocugunuz Icin En Uygun Kampusu Birlikte Belirleyelim",
+    headline: "Çocuğunuz İçin En Uygun Kampüsü Birlikte Belirleyelim",
     subtext:
-      "Uc kampusumuzdan dilediginize ucretsiz ziyaret randevusu alin. Uzman kadromuz size rehberlik etsin.",
+      "Üç kampüsümüzden dilediğinize ücretsiz ziyaret randevusu alın. Uzman kadromuz size rehberlik etsin.",
   },
 };
 
 export const atasehirKres: SeoPageData = {
   slug: "atasehir-kres",
   type: "kres",
-  metaTitle: "Atasehir Kres | Dusler Satosu — Guvende ve Sevgiyle Buyuyen Bebekler",
+  metaTitle: "Ataşehir Kreş | Düşler Şatosu — Güvende ve Sevgiyle Büyüyen Bebekler",
   metaDescription:
-    "Atasehir'de 2 yas ve ustu icin guvenli kres. Duyusal kesif programi, uzman psikolog destegi, kademeli adaptasyon. Ucretsiz okul ziyareti.",
+    "Ataşehir'de 2 yaş ve üstü için güvenli kreş. Duyusal keşif programı, uzman psikolog desteği, kademeli adaptasyon. Ücretsiz okul ziyareti.",
 
   hero: {
-    headline: "Atasehir'de 2 Yas ve Ustu Icin Guvenli Kres",
+    headline: "Ataşehir'de 2 Yaş ve Üstü İçin Güvenli Kreş",
     subheadline:
-      "Cocugunuzun hayatindaki ilk egitim deneyimi, dogru ellerde olmalidir. 24 yillik deneyimimizle en kucuklere guvenli, sevgi dolu bir baslangic sunuyoruz.",
+      "Çocuğunuzun hayatındaki ilk eğitim deneyimi, doğru ellerde olmalıdır. 24 yıllık deneyimimizle en küçüklere güvenli, sevgi dolu bir başlangıç sunuyoruz.",
     badges: [
-      "MEB Onayli",
-      "Uzman Psikolog Destegi",
+      "MEB Onaylı",
+      "Uzman Psikolog Desteği",
       "Kademeli Adaptasyon",
-      "Kucuk Gruplar",
+      "Küçük Gruplar",
     ],
   },
 
   intro:
-    "Iki yas, bir cocugun dunyayi kendi bedeninden kesfetmeye basladigi, duyusal deneyimlerin en yogun yasandigi donemdir. Bu hassas donemde dogru bir egitim ortami, cocugunuzun tum gelecegini sekillendiren temelleri atar.",
+    "İki yaş, bir çocuğun dünyayı kendi bedeninden keşfetmeye başladığı, duyusal deneyimlerin en yoğun yaşandığı dönemdir. Bu hassas dönemde doğru bir eğitim ortamı, çocuğunuzun tüm geleceğini şekillendiren temelleri atar.",
 
   campusLinks: [
     {
-      name: "Bati Atasehir Kampusu",
+      name: "Batı Ataşehir Kampüsü",
       slug: "/kampusler/bati-atasehir",
-      highlight: "Duyusal kesif atolyeleri ve guvenli oyun alanlari",
+      highlight: "Duyusal keşif atölyeleri ve güvenli oyun alanları",
+      image: "/images/card-bati-atasehir.jpg",
     },
     {
-      name: "Dogu Atasehir Kampusu",
+      name: "Doğu Ataşehir Kampüsü",
       slug: "/kampusler/dogu-atasehir",
-      highlight: "Merkezi konum, muzik ve ritim odakli program",
+      highlight: "Merkezi konum, müzik ve ritim odaklı program",
+      image: "/images/card-dogu-atasehir.jpg",
     },
     {
-      name: "Koc Universitesi Kampusu",
+      name: "Koç Üniversitesi Kampüsü",
       slug: "/kampusler/koc-universitesi",
-      highlight: "Dogayla ic ice guvenli kampus ortami",
+      highlight: "Doğayla iç içe güvenli kampüs ortamı",
+      image: "/images/card-koc-universitesi.jpg",
     },
   ],
 
   sharedContent: {
     methodology:
-      "Kucuk Kasifler programimiz, 2+ yas grubu icin ozel olarak tasarlanmis duyusal kesif temelli bir egitim modelidir.",
+      "Küçük Kâşifler programımız, 2+ yaş grubu için özel olarak tasarlanmış duyusal keşif temelli bir eğitim modelidir.",
     methodologyItems: [
-      "Duyusal Kesif Atolyeleri: Dokunma, koklama, tatma deneyimleri",
-      "Motor Gelisim Parkurlari: Bedenini taniyan cocuk, ozguvenini kesfeder",
-      "Ritim ve Muzik: Orff enstrumanlariyla duygusal ifade",
-      "Sosyallesme: Paylasma, sira bekleme, empatinin ilk adimlari",
+      "Duyusal Keşif Atölyeleri: Dokunma, koklama, tatma deneyimleri",
+      "Motor Gelişim Parkurları: Bedenini tanıyan çocuk, özgüvenini keşfeder",
+      "Ritim ve Müzik: Orff enstrümanlarıyla duygusal ifade",
+      "Sosyalleşme: Paylaşma, sıra bekleme, empatinin ilk adımları",
     ],
     healthProtocol:
-      "Her kampusumuzde okul hemsiresi gorev yapmaktadir. Kucuk yastaki cocuklarimiz icin ozel hijyen protokolleri ve guvenlik onlemleri uygulanir.",
+      "Her kampüsümüzde okul hemşiresi görev yapmaktadır. Küçük yaştaki çocuklarımız için özel hijyen protokolleri ve güvenlik önlemleri uygulanır.",
     nutrition:
-      "Yas grubuna uygun, diyetisyen esliginde hazirlanan ozel menu. Alerji ve hassasiyet takibi bireysel yapilir.",
+      "Yaş grubuna uygun, diyetisyen eşliğinde hazırlanan özel menü. Alerji ve hassasiyet takibi bireysel yapılır.",
   },
 
   faq: [
     {
-      question: "Kac yasindan itibaren kayit yapilabiliyor?",
+      question: "Kaç yaşından itibaren kayıt yapılabiliyor?",
       answer:
-        "2 yas ve ustu cocuklar icin kayit yapilmaktadir. Cocugunuzun gelisim duzeyi ve hazir bulunuslugu, uzman kadromuz tarafindan degerlendirilir.",
+        "2 yaş ve üstü çocuklar için kayıt yapılmaktadır. Çocuğunuzun gelişim düzeyi ve hazır bulunuşluğu, uzman kadromuz tarafından değerlendirilir.",
     },
     {
-      question: "Adaptasyon sureci nasil isleniyor?",
+      question: "Adaptasyon süreci nasıl işleniyor?",
       answer:
-        "Kademeli uyum programimiz, ilk hafta veli esliginde baslar. Psikologumuz hem cocugu hem aileyi bu surecte birebir destekler. Her cocugun kendi temposuna saygi gosterilir.",
+        "Kademeli uyum programımız, ilk hafta veli eşliğinde başlar. Psikologumuz hem çocuğu hem aileyi bu süreçte birebir destekler. Her çocuğun kendi temposuna saygı gösterilir.",
     },
     {
-      question: "Cocugum ilk ayda neler kazanir?",
+      question: "Çocuğum ilk ayda neler kazanır?",
       answer:
-        "Ilk ayda cocugunuz guvenli baglanma, temel sosyallesme, rutin olusturma ve ortama uyum saglar. Bu kazanimlar, ailemizle paylasilan haftalik gelisim raporlariyla takip edilir.",
+        "İlk ayda çocuğunuz güvenli bağlanma, temel sosyalleşme, rutin oluşturma ve ortama uyum sağlar. Bu kazanımlar, ailemizle paylaşılan haftalık gelişim raporlarıyla takip edilir.",
     },
     ...sharedFaq.slice(2),
   ],
 
   ctaSection: {
-    headline: "Cocugunuzun Ilk Egitim Deneyimini Yakindan Taniyin",
+    headline: "Çocuğunuzun İlk Eğitim Deneyimini Yakından Tanıyın",
     subtext:
-      "Guvenli ve sevgi dolu ortamimizi ucretsiz ziyaret edin. Uzman kadromuz cocugunuzun gelisimi hakkinda size rehberlik etsin.",
+      "Güvenli ve sevgi dolu ortamımızı ücretsiz ziyaret edin. Uzman kadromuz çocuğunuzun gelişimi hakkında size rehberlik etsin.",
   },
 };

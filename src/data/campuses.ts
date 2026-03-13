@@ -2,66 +2,67 @@ import { CampusData } from "./types";
 import { sharedPrograms, sharedFaq, baseSchedule } from "./shared";
 
 // ========================================================
-//  BATI ATASEHIR
+//  BATI ATAŞEHİR
 // ========================================================
 export const batiAtasehir: CampusData = {
   slug: "bati-atasehir",
-  name: "Bati Atasehir",
-  fullName: "Dusler Satosu Bati Atasehir Anaokulu",
-  location: "Bati Atasehir, Istanbul",
-  metaTitle: "Bati Atasehir Anaokulu | Dusler Satosu — 24 Yillik Guven",
+  name: "Batı Ataşehir",
+  fullName: "Düşler Şatosu Batı Ataşehir Anaokulu",
+  location: "Batı Ataşehir, İstanbul",
+  metaTitle: "Batı Ataşehir Anaokulu | Düşler Şatosu — 24 Yıllık Güven",
   metaDescription:
-    "Bati Atasehir'de sehrin icinde cocuklara ayri bir dunya. Uzman psikolog kadrosu, bilimsel egitim programlari ve guvenli ortam. Ucretsiz okul ziyareti icin randevu alin.",
+    "Batı Ataşehir'de şehrin içinde çocuklara ayrı bir dünya. Uzman psikolog kadrosu, bilimsel eğitim programları ve güvenli ortam. Ücretsiz okul ziyareti için randevu alın.",
 
   hero: {
-    headline: "Bati Atasehir'de Cocugunuza Ayri Bir Dunya Kurduk",
+    headline: "Batı Ataşehir'de Çocuğunuza Ayrı Bir Dünya Kurduk",
     subheadline:
-      "Sehrin tam merkezinde, yirmi dort yildir cocuklar icin ozel olarak tasarlanmis bir egitim dunyasi sizi bekliyor. Uzman psikolog kadromuz ve native Ingilizce egitmenlerimizle her cocuk burada kendi hikayesini yazar.",
-    cta1: "Anaokulumuzu Kesfedin",
-    cta2: "WhatsApp ile Bilgi Alin",
+      "Şehrin tam merkezinde, yirmi dört yıldır çocuklar için özel olarak tasarlanmış bir eğitim dünyası sizi bekliyor. Uzman psikolog kadromuz ve native İngilizce eğitmenlerimizle her çocuk burada kendi hikâyesini yazar.",
+    cta1: "Ücretsiz Okul Gezisi Ayırtın",
+    cta2: "WhatsApp ile Bilgi Alın",
     badges: [
-      "MEB Onayli",
-      "24 Yil Deneyim",
+      "MEB Onaylı",
+      "24 Yıl Deneyim",
       "Uzman Psikolog Kadrosu",
       "5.000+ Mezun Aile",
     ],
-    imageAlt: "Dusler Satosu Bati Atasehir anaokulu sinif ici etkinlik",
+    imageAlt: "Düşler Şatosu Batı Ataşehir anaokulu sınıf içi etkinlik",
+    heroImage: "/images/hero-bati-atasehir.jpg",
   },
 
   quickInfo: {
-    yas: "2 — 6 yas",
+    yas: "2 — 6 yaş",
     saat: "07:30 — 18:30",
-    sinifMevcudu: "12 — 18 ogrenci",
-    konum: "Bati Atasehir Merkez",
+    sinifMevcudu: "12 — 18 öğrenci",
+    konum: "Batı Ataşehir Merkez",
   },
 
   whyUs: {
     intro:
-      "Bir cocugun saglikli bir birey olarak buyuyebilmesi icin kendini guvende, degerli ve merak duygusunu ozgurce yasayabilecegi bir ortama ihtiyaci vardir.",
+      "Bir çocuğun sağlıklı bir birey olarak büyüyebilmesi için kendini güvende, değerli ve merak duygusunu özgürce yaşayabileceği bir ortama ihtiyacı vardır.",
     cards: [
       {
         icon: "Shield",
-        title: "Sehrin Kalbinde, Ozel Tasarlanmis Egitim Dunyasi",
+        title: "Şehrin Kalbinde, Özel Tasarlanmış Eğitim Dünyası",
         description:
-          "Bati Atasehir'in merkezinde konumlanan anaokulumuz, cocuklariniz icin ozel olarak tasarlanmis guvenli ve ilham verici bir mekandadir.",
+          "Batı Ataşehir'in merkezinde konumlanan anaokulumuz, çocuklarınız için özel olarak tasarlanmış güvenli ve ilham verici bir mekândadır.",
       },
       {
         icon: "Brain",
-        title: "Uzman Psikolog Kadrosu — Her Cocuga Bireysel Destek",
+        title: "Uzman Psikolog Kadrosu — Her Çocuğa Bireysel Destek",
         description:
-          "Her yas grubuna ozel ilgi sunan psikolog kadromuz, cocugunuzun duygusal gelisimini bireysel olarak takip eder ve aile danismanligi hizmeti sunar.",
+          "Her yaş grubuna özel ilgi sunan psikolog kadromuz, çocuğunuzun duygusal gelişimini bireysel olarak takip eder ve aile danışmanlığı hizmeti sunar.",
       },
       {
         icon: "GraduationCap",
-        title: "Uzman Brans Egitmenleri — Zengin Ogrenme Firsatlari",
+        title: "Uzman Branş Eğitmenleri — Zengin Öğrenme Fırsatları",
         description:
-          "Ingilizce, muzik, jimnastik, drama, yoga, fen ve doga, dans ve ritim — tum brans dersleri uzman egitmenlerle ve egitim ucretine dahildir.",
+          "İngilizce, müzik, jimnastik, drama, yoga, fen ve doğa, dans ve ritim — tüm branş dersleri uzman eğitmenlerle ve eğitim ücretine dahildir.",
       },
       {
         icon: "Users",
-        title: "Kucuk Siniflar, Buyuk Ilgi",
+        title: "Küçük Sınıflar, Büyük İlgi",
         description:
-          "Her yas grubuna uygun sinif mevcudu planlamasiyla cocugunuz taninir, bilinir ve deger gorur.",
+          "Her yaş grubuna uygun sınıf mevcudu planlamasıyla çocuğunuz tanınır, bilinir ve değer görür.",
       },
     ],
   },
@@ -70,114 +71,115 @@ export const batiAtasehir: CampusData = {
 
   branches: {
     list: [
-      "Ingilizce (Native egitmenlerle)",
-      "Muzik / Orff",
+      "İngilizce (Native eğitmenlerle)",
+      "Müzik / Orff",
       "Jimnastik",
       "Drama",
       "Yoga",
-      "Fen ve Doga",
+      "Fen ve Doğa",
       "Dans ve Ritim",
-      "GEMS Bilim Programi",
+      "GEMS Bilim Programı",
     ],
-    spotlight: ["Ingilizce", "GEMS Bilim Programi"],
+    spotlight: ["İngilizce", "GEMS Bilim Programı"],
     dailySchedule: baseSchedule,
   },
 
   socialProof: {
     stats: [
-      { value: "24", label: "Yil Deneyim" },
+      { value: "24", label: "Yıl Deneyim" },
       { value: "5.000+", label: "Mezun Aile" },
       { value: "%97", label: "Veli Memnuniyeti" },
-      { value: "3", label: "Kampus" },
+      { value: "3", label: "Kampüs" },
     ],
     testimonials: [
       {
-        text: "Cocugumuzun ilk gununden itibaren kendini guvende hissettigini gorduk. Psikolog destegi bizim icin cok degerli.",
+        text: "Çocuğumuzun ilk gününden itibaren kendini güvende hissettiğini gördük. Psikolog desteği bizim için çok değerli.",
         author: "Elif K.",
-        child: "4 yas velisi",
+        child: "4 yaş velisi",
       },
       {
-        text: "Native Ingilizce egitmenleri sayesinde cocugumuz dogal bir sekilde iki dilli buyuyor.",
+        text: "Native İngilizce eğitmenleri sayesinde çocuğumuz doğal bir şekilde iki dilli büyüyor.",
         author: "Mehmet A.",
-        child: "5 yas velisi",
+        child: "5 yaş velisi",
       },
     ],
     familyConsulting:
-      "Aile Danismanligi hizmetimiz kapsaminda psikolog kadromuz duzenli aile gorusmeleri, cocuk gelisimi seminerleri ve bireysel danismanlik seanslari sunmaktadir.",
+      "Aile Danışmanlığı hizmetimiz kapsamında psikolog kadromuz düzenli aile görüşmeleri, çocuk gelişimi seminerleri ve bireysel danışmanlık seansları sunmaktadır.",
   },
 
   faq: sharedFaq,
 
   ctaSection: {
-    headline: "Cocugunuz Icin En Dogru Adimi Birlikte Atalim",
+    headline: "Çocuğunuz İçin En Doğru Adımı Birlikte Atalım",
     subtext:
-      "Ucretsiz okul ziyareti ile egitim ortamimizi yakindan taniyin. Sinirli kontenjan — erken kayit avantajindan yararlanin.",
-    urgencyText: "2025-2026 kayitlari devam ediyor — sinirli kontenjan",
+      "Ücretsiz okul ziyareti ile eğitim ortamımızı yakından tanıyın. Sınırlı kontenjan — erken kayıt avantajından yararlanın.",
+    urgencyText: "2025-2026 kayıtları devam ediyor — sınırlı kontenjan",
   },
 };
 
 // ========================================================
-//  DOGU ATASEHIR
+//  DOĞU ATAŞEHİR
 // ========================================================
 export const doguAtasehir: CampusData = {
   slug: "dogu-atasehir",
-  name: "Dogu Atasehir",
-  fullName: "Dusler Satosu Dogu Atasehir Anaokulu",
-  location: "Dogu Atasehir, Istanbul",
+  name: "Doğu Ataşehir",
+  fullName: "Düşler Şatosu Doğu Ataşehir Anaokulu",
+  location: "Doğu Ataşehir, İstanbul",
   metaTitle:
-    "Dogu Atasehir Anaokulu | Dusler Satosu — Egitimde 24 Yillik Guven",
+    "Doğu Ataşehir Anaokulu | Düşler Şatosu — Eğitimde 24 Yıllık Güven",
   metaDescription:
-    "Dogu Atasehir'in merkezinde, 24 yillik deneyimle cocuk merkezli egitim. Uzman psikolog kadrosu, drama ve muzik odakli program. Okul ziyareti icin randevu alin.",
+    "Doğu Ataşehir'in merkezinde, 24 yıllık deneyimle çocuk merkezli eğitim. Uzman psikolog kadrosu, drama ve müzik odaklı program. Okul ziyareti için randevu alın.",
 
   hero: {
-    headline: "Dogu Atasehir'de Her Cocuk Kendi Hikayesini Yazar",
+    headline: "Doğu Ataşehir'de Her Çocuk Kendi Hikâyesini Yazar",
     subheadline:
-      "Merkezi konumuyla ulasimi kolay, yirmi dort yillik deneyimiyle guvenilir. Drama ve muzik odakli zengin programimizla cocugunuzun ifade becerilerini gelistiriyoruz.",
-    cta1: "Okulumuzu Ziyaret Edin",
-    cta2: "WhatsApp ile Bilgi Alin",
+      "Merkezi konumuyla ulaşımı kolay, yirmi dört yıllık deneyimiyle güvenilir. Drama ve müzik odaklı zengin programımızla çocuğunuzun ifade becerilerini geliştiriyoruz.",
+    cta1: "Ücretsiz Okul Gezisi Ayırtın",
+    cta2: "WhatsApp ile Bilgi Alın",
     badges: [
-      "MEB Onayli",
-      "24 Yil Deneyim",
+      "MEB Onaylı",
+      "24 Yıl Deneyim",
       "Uzman Psikolog Kadrosu",
       "Merkezi Konum",
     ],
-    imageAlt: "Dusler Satosu Dogu Atasehir anaokulu drama etkinligi",
+    imageAlt: "Düşler Şatosu Doğu Ataşehir anaokulu drama etkinliği",
+    heroImage: "/images/hero-dogu-atasehir.jpg",
   },
 
   quickInfo: {
-    yas: "2 — 6 yas",
+    yas: "2 — 6 yaş",
     saat: "07:30 — 18:30",
-    sinifMevcudu: "12 — 18 ogrenci",
-    konum: "Dogu Atasehir Merkez",
+    sinifMevcudu: "12 — 18 öğrenci",
+    konum: "Doğu Ataşehir Merkez",
   },
 
   whyUs: {
     intro:
-      "Her cocugun ozgur bir birey olarak gelismesi icin kendini ifade edebildigi, deger gordugu bir ortam sart.",
+      "Her çocuğun özgür bir birey olarak gelişmesi için kendini ifade edebildiği, değer gördüğü bir ortam şart.",
     cards: [
       {
         icon: "MapPin",
-        title: "Merkezi Konum, Kolay Ulasim",
+        title: "Merkezi Konum, Kolay Ulaşım",
         description:
-          "Dogu Atasehir'in kalbinde, toplu tasima ve ana arterlere yakin konumuyla aileler icin pratik ve guvenli.",
+          "Doğu Ataşehir'in kalbinde, toplu taşıma ve ana arterlere yakın konumuyla aileler için pratik ve güvenli.",
       },
       {
         icon: "Brain",
         title: "Uzman Psikolog Kadrosu — Bireysel Takip",
         description:
-          "Her yas grubuna ozel ilgi sunan psikolog kadromuz, cocugunuzun duygusal gelisimini bireysel olarak takip eder.",
+          "Her yaş grubuna özel ilgi sunan psikolog kadromuz, çocuğunuzun duygusal gelişimini bireysel olarak takip eder.",
       },
       {
         icon: "Music",
-        title: "Drama ve Muzik Odakli Zengin Program",
+        title: "Drama ve Müzik Odaklı Zengin Program",
         description:
-          "Ifade sanatlari, kendini tanimi ve empati gelistirmenin en etkili aracidir. Kampusumuzde drama ve muzik ozel vurgulu olarak sunulmaktadir.",
+          "İfade sanatları, kendini tanımanın ve empati geliştirmenin en etkili aracıdır. Kampüsümüzde drama ve müzik özel vurgulu olarak sunulmaktadır.",
       },
       {
         icon: "Users",
-        title: "Kucuk Siniflar, Buyuk Ilgi",
+        title: "Küçük Sınıflar, Büyük İlgi",
         description:
-          "Her yas grubuna uygun sinif mevcudu planlamasiyla cocugunuz taninir, bilinir ve deger gorur.",
+          "Her yaş grubuna uygun sınıf mevcudu planlamasıyla çocuğunuz tanınır, bilinir ve değer görür.",
       },
     ],
   },
@@ -186,114 +188,115 @@ export const doguAtasehir: CampusData = {
 
   branches: {
     list: [
-      "Ingilizce (Native egitmenlerle)",
-      "Muzik / Orff",
+      "İngilizce (Native eğitmenlerle)",
+      "Müzik / Orff",
       "Jimnastik",
       "Drama",
       "Yoga",
-      "Fen ve Doga",
+      "Fen ve Doğa",
       "Dans ve Ritim",
-      "GEMS Bilim Programi",
+      "GEMS Bilim Programı",
     ],
-    spotlight: ["Drama", "Muzik / Orff"],
+    spotlight: ["Drama", "Müzik / Orff"],
     dailySchedule: baseSchedule,
   },
 
   socialProof: {
     stats: [
-      { value: "24", label: "Yil Deneyim" },
+      { value: "24", label: "Yıl Deneyim" },
       { value: "5.000+", label: "Mezun Aile" },
       { value: "%97", label: "Veli Memnuniyeti" },
-      { value: "3", label: "Kampus" },
+      { value: "3", label: "Kampüs" },
     ],
     testimonials: [
       {
-        text: "Drama dersleri sayesinde cocugumuz cok daha ozguvenli ve ifade becerisi guclu bir birey haline geldi.",
-        author: "Ayse T.",
-        child: "5 yas velisi",
+        text: "Drama dersleri sayesinde çocuğumuz çok daha özgüvenli ve ifade becerisi güçlü bir birey haline geldi.",
+        author: "Ayşe T.",
+        child: "5 yaş velisi",
       },
       {
-        text: "Merkezi konumu ve profesyonel kadrosuyla en dogru tercihimiz oldu. Iki cocugumu da gonderiyorum.",
+        text: "Merkezi konumu ve profesyonel kadrosuyla en doğru tercihimiz oldu. İki çocuğumu da gönderiyorum.",
         author: "Can B.",
-        child: "3 ve 5 yas velisi",
+        child: "3 ve 5 yaş velisi",
       },
     ],
     familyConsulting:
-      "Aile Danismanligi hizmetimiz kapsaminda psikolog kadromuz duzenli aile gorusmeleri ve bireysel danismanlik seanslari sunmaktadir.",
+      "Aile Danışmanlığı hizmetimiz kapsamında psikolog kadromuz düzenli aile görüşmeleri ve bireysel danışmanlık seansları sunmaktadır.",
   },
 
   faq: sharedFaq,
 
   ctaSection: {
-    headline: "Cocugunuz Icin En Dogru Adimi Birlikte Atalim",
+    headline: "Çocuğunuz İçin En Doğru Adımı Birlikte Atalım",
     subtext:
-      "Ucretsiz okul ziyareti ile egitim ortamimizi yakindan taniyin. Sinirli kontenjan — erken kayit avantajindan yararlanin.",
-    urgencyText: "2025-2026 kayitlari devam ediyor — sinirli kontenjan",
+      "Ücretsiz okul ziyareti ile eğitim ortamımızı yakından tanıyın. Sınırlı kontenjan — erken kayıt avantajından yararlanın.",
+    urgencyText: "2025-2026 kayıtları devam ediyor — sınırlı kontenjan",
   },
 };
 
 // ========================================================
-//  KOC UNIVERSITESI
+//  KOÇ ÜNİVERSİTESİ
 // ========================================================
 export const kocUniversitesi: CampusData = {
   slug: "koc-universitesi",
-  name: "Koc Universitesi",
-  fullName: "Dusler Satosu Koc Universitesi Anaokulu",
-  location: "Koc Universitesi Kampusu, Istanbul",
+  name: "Koç Üniversitesi",
+  fullName: "Düşler Şatosu Koç Üniversitesi Anaokulu",
+  location: "Koç Üniversitesi Kampüsü, İstanbul",
   metaTitle:
-    "Koc Universitesi Anaokulu | Dusler Satosu — Kampus Ekosisteminde Egitim",
+    "Koç Üniversitesi Anaokulu | Düşler Şatosu — Kampüs Ekosisteminde Eğitim",
   metaDescription:
-    "Koc Universitesi kampusunde, akademik ekosistem icinde erken cocukluk egitimi. Fen, doga ve yoga odakli program. 24 yillik Dusler Satosu guvencesi.",
+    "Koç Üniversitesi kampüsünde, akademik ekosistem içinde erken çocukluk eğitimi. Fen, doğa ve yoga odaklı program. 24 yıllık Düşler Şatosu güvencesi.",
 
   hero: {
-    headline: "Koc Universitesi Kampusunde Erken Cocukluk Egitiminin En Iyisi",
+    headline: "Koç Üniversitesi Kampüsünde Erken Çocukluk Eğitiminin En İyisi",
     subheadline:
-      "Turkiye'nin onde gelen universitesinin kampus ekosisteminde, bilimsel merak ve dogayla ic ice buyuyen cocuklar. Fen, doga ve yoga odakli benzersiz programimiz.",
-    cta1: "Kampusumuzu Kesfedin",
-    cta2: "WhatsApp ile Bilgi Alin",
+      "Türkiye'nin önde gelen üniversitesinin kampüs ekosisteminde, bilimsel merak ve doğayla iç içe büyüyen çocuklar. Fen, doğa ve yoga odaklı benzersiz programımız.",
+    cta1: "Ücretsiz Kampüs Turu Ayırtın",
+    cta2: "WhatsApp ile Bilgi Alın",
     badges: [
-      "MEB Onayli",
-      "24 Yil Deneyim",
-      "Kampus Ekosistemi",
+      "MEB Onaylı",
+      "24 Yıl Deneyim",
+      "Kampüs Ekosistemi",
       "Uzman Psikolog Kadrosu",
     ],
-    imageAlt: "Dusler Satosu Koc Universitesi kampusu anaokulu",
+    imageAlt: "Düşler Şatosu Koç Üniversitesi kampüsü anaokulu",
+    heroImage: "/images/hero-koc-universitesi.jpg",
   },
 
   quickInfo: {
-    yas: "2 — 6 yas",
+    yas: "2 — 6 yaş",
     saat: "07:30 — 18:30",
-    sinifMevcudu: "12 — 18 ogrenci",
-    konum: "Koc Universitesi Kampusu",
+    sinifMevcudu: "12 — 18 öğrenci",
+    konum: "Koç Üniversitesi Kampüsü",
   },
 
   whyUs: {
     intro:
-      "Bir universite kampusunun sunabilecegi benzersiz kaynaklarla, cocugunuzun merak duygusunu besleyecek esssiz bir ortam.",
+      "Bir üniversite kampüsünün sunabileceği benzersiz kaynaklarla, çocuğunuzun merak duygusunu besleyecek eşsiz bir ortam.",
     cards: [
       {
         icon: "Building",
-        title: "Kampus Ekosistemi — Benzersiz Ogrenme Ortami",
+        title: "Kampüs Ekosistemi — Benzersiz Öğrenme Ortamı",
         description:
-          "Koc Universitesi'nin genis yesil alanlari, kutuphaneleri ve spor tesislerinden faydalanan, akademik bir atmosferde egitim.",
+          "Koç Üniversitesi'nin geniş yeşil alanları, kütüphaneleri ve spor tesislerinden faydalanan, akademik bir atmosferde eğitim.",
       },
       {
         icon: "Brain",
         title: "Uzman Psikolog Kadrosu — Bireysel Takip",
         description:
-          "Her yas grubuna ozel ilgi sunan psikolog kadromuz, cocugunuzun duygusal gelisimini bireysel olarak takip eder.",
+          "Her yaş grubuna özel ilgi sunan psikolog kadromuz, çocuğunuzun duygusal gelişimini bireysel olarak takip eder.",
       },
       {
         icon: "Leaf",
-        title: "Fen, Doga ve Yoga Odakli Program",
+        title: "Fen, Doğa ve Yoga Odaklı Program",
         description:
-          "Kampusun dogal ortamini egitimin merkezine tasiyan programimizda fen deneyleri, doga kesfi ve yoga ile butunsel gelisim.",
+          "Kampüsün doğal ortamını eğitimin merkezine taşıyan programımızda fen deneyleri, doğa keşfi ve yoga ile bütünsel gelişim.",
       },
       {
         icon: "Users",
-        title: "Kucuk Siniflar, Buyuk Ilgi",
+        title: "Küçük Sınıflar, Büyük İlgi",
         description:
-          "Her yas grubuna uygun sinif mevcudu planlamasiyla cocugunuz taninir, bilinir ve deger gorur.",
+          "Her yaş grubuna uygun sınıf mevcudu planlamasıyla çocuğunuz tanınır, bilinir ve değer görür.",
       },
     ],
   },
@@ -302,61 +305,61 @@ export const kocUniversitesi: CampusData = {
 
   branches: {
     list: [
-      "Ingilizce (Native egitmenlerle)",
-      "Muzik / Orff",
+      "İngilizce (Native eğitmenlerle)",
+      "Müzik / Orff",
       "Jimnastik",
       "Drama",
       "Yoga",
-      "Fen ve Doga",
+      "Fen ve Doğa",
       "Dans ve Ritim",
-      "GEMS Bilim Programi",
+      "GEMS Bilim Programı",
     ],
-    spotlight: ["Fen ve Doga", "Yoga"],
+    spotlight: ["Fen ve Doğa", "Yoga"],
     dailySchedule: baseSchedule,
   },
 
   socialProof: {
     stats: [
-      { value: "24", label: "Yil Deneyim" },
+      { value: "24", label: "Yıl Deneyim" },
       { value: "5.000+", label: "Mezun Aile" },
       { value: "%97", label: "Veli Memnuniyeti" },
-      { value: "3", label: "Kampus" },
+      { value: "3", label: "Kampüs" },
     ],
     testimonials: [
       {
-        text: "Universite kampusunde buyumek cocugumuza bambaska bir perspektif katti. Dogayla ic ice, bilimsel merakla dolu gunler.",
+        text: "Üniversite kampüsünde büyümek çocuğumuza bambaşka bir perspektif kattı. Doğayla iç içe, bilimsel merakla dolu günler.",
         author: "Zeynep D.",
-        child: "4 yas velisi",
+        child: "4 yaş velisi",
       },
       {
-        text: "Yoga ve mindfulness uygulamalari cocugumuzun duygusal dengesine inanilmaz katki sagladi.",
+        text: "Yoga ve mindfulness uygulamaları çocuğumuzun duygusal dengesine inanılmaz katkı sağladı.",
         author: "Burak S.",
-        child: "5 yas velisi",
+        child: "5 yaş velisi",
       },
     ],
     familyConsulting:
-      "Aile Danismanligi hizmetimiz kapsaminda psikolog kadromuz duzenli aile gorusmeleri ve bireysel danismanlik seanslari sunmaktadir.",
+      "Aile Danışmanlığı hizmetimiz kapsamında psikolog kadromuz düzenli aile görüşmeleri ve bireysel danışmanlık seansları sunmaktadır.",
   },
 
   faq: sharedFaq,
 
   ctaSection: {
-    headline: "Kampus Ekosisteminde Egitimi Yakindan Taniyin",
+    headline: "Kampüs Ekosisteminde Eğitimi Yakından Tanıyın",
     subtext:
-      "Ucretsiz kampus turu ile benzersiz egitim ortamimizi kesfedin. Sinirli kontenjan — erken kayit avantajindan yararlanin.",
-    urgencyText: "2025-2026 kayitlari devam ediyor — sinirli kontenjan",
+      "Ücretsiz kampüs turu ile benzersiz eğitim ortamımızı keşfedin. Sınırlı kontenjan — erken kayıt avantajından yararlanın.",
+    urgencyText: "2025-2026 kayıtları devam ediyor — sınırlı kontenjan",
   },
 
   extraSection: {
-    title: "Kampus Ekosisteminin Avantajlari",
+    title: "Kampüs Ekosisteminin Avantajları",
     content:
-      "Koc Universitesi kampusunun sunduklari sadece bir anaokulu binasi degil, komple bir yasam ve ogrenme ekosistemidir.",
+      "Koç Üniversitesi kampüsünün sundukları sadece bir anaokulu binası değil, komple bir yaşam ve öğrenme ekosistemidir.",
     items: [
-      "Genis yesil alanlar ve dogal kesif ortamlari",
-      "Universite kutuphanesi ve bilim merkezlerine duzenli ziyaretler",
-      "Spor tesisleri ve yuzme havuzu imkanlari",
-      "Akademik kadroyla etkilesim firsatlari",
-      "Guvenli ve kontrollü kampus ulasimi",
+      "Geniş yeşil alanlar ve doğal keşif ortamları",
+      "Üniversite kütüphanesi ve bilim merkezlerine düzenli ziyaretler",
+      "Spor tesisleri ve yüzme havuzu imkânları",
+      "Akademik kadroyla etkileşim fırsatları",
+      "Güvenli ve kontrollü kampüs ulaşımı",
     ],
   },
 };

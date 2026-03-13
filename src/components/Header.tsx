@@ -3,10 +3,15 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 
-const navItems = [
-  { label: "Bati Atasehir", href: "/kampusler/bati-atasehir" },
-  { label: "Dogu Atasehir", href: "/kampusler/dogu-atasehir" },
-  { label: "Koc Universitesi", href: "/kampusler/koc-universitesi" },
+const campusItems = [
+  { label: "Batı Ataşehir", href: "/kampusler/bati-atasehir" },
+  { label: "Doğu Ataşehir", href: "/kampusler/dogu-atasehir" },
+  { label: "Koç Üniversitesi", href: "/kampusler/koc-universitesi" },
+];
+
+const seoItems = [
+  { label: "Ataşehir Anaokulu", href: "/atasehir-anaokulu" },
+  { label: "Ataşehir Kreş", href: "/atasehir-kres" },
 ];
 
 export default function Header() {
@@ -18,11 +23,11 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-turkuaz to-brand-yesil flex items-center justify-center text-white font-bold text-lg font-display">
-            DS
+            DŞ
           </div>
           <div className="hidden sm:block">
             <div className="font-display font-bold text-brand-koyu text-sm leading-tight">
-              Dusler Satosu
+              Düşler Şatosu
             </div>
             <div className="text-xs text-brand-gri">Anaokulu</div>
           </div>
@@ -30,11 +35,21 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1">
-          {navItems.map((item) => (
+          {campusItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className="px-4 py-2 text-sm font-medium text-brand-koyu/80 hover:text-brand-turkuaz rounded-lg hover:bg-brand-turkuaz/5 transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
+          <span className="w-px h-5 bg-gray-200 mx-1" />
+          {seoItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="px-3 py-2 text-sm font-medium text-brand-gri hover:text-brand-turkuaz rounded-lg hover:bg-brand-turkuaz/5 transition-colors"
             >
               {item.label}
             </Link>
@@ -62,7 +77,7 @@ export default function Header() {
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden p-2 rounded-lg hover:bg-gray-100"
-          aria-label="Menu"
+          aria-label="Menü"
         >
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
@@ -72,7 +87,23 @@ export default function Header() {
       {open && (
         <div className="md:hidden bg-white border-t border-gray-100 px-4 pb-6">
           <nav className="flex flex-col gap-1 pt-4">
-            {navItems.map((item) => (
+            <div className="px-4 py-2 text-xs font-semibold text-brand-gri uppercase tracking-wider">
+              Kampüsler
+            </div>
+            {campusItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="px-4 py-3 text-brand-koyu font-medium rounded-lg hover:bg-brand-turkuaz/5"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <div className="px-4 py-2 mt-2 text-xs font-semibold text-brand-gri uppercase tracking-wider">
+              Bilgi Sayfaları
+            </div>
+            {seoItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}

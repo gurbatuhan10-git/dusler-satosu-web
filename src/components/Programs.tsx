@@ -15,12 +15,12 @@ export default function Programs({ programs }: Props) {
     <section className="section-padding bg-brand-acik">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <span className="badge mb-4">Egitim Programlari</span>
+          <span className="badge mb-4">Eğitim Programları</span>
           <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4">
-            Yasa Ozel, Bilimsel Temelli Egitim Programlari
+            Yaşa Özel, Bilimsel Temelli Eğitim Programları
           </h2>
           <p className="text-brand-gri mt-4 leading-relaxed">
-            Ilk alti yil, beynin ve duygusal gelisimin buyuk kisminin tamamlandigi kritik bir penceredir.
+            İlk altı yıl, beynin ve duygusal gelişimin büyük kısmının tamamlandığı kritik bir penceredir.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function Programs({ programs }: Props) {
         {/* CTA */}
         <div className="text-center mt-10">
           <a href="#kayit" className="btn-primary">
-            Cocugunuz icin en uygun programi birlikte belirleyelim
+            Çocuğunuz için en uygun programı birlikte belirleyelim
           </a>
         </div>
       </div>

@@ -12,6 +12,7 @@ export interface CampusData {
     cta2: string;
     badges: string[];
     imageAlt: string;
+    heroImage?: string;
   };
   quickInfo: {
     yas: string;
@@ -71,7 +72,7 @@ export interface SeoPageData {
     badges: string[];
   };
   intro: string;
-  campusLinks: { name: string; slug: string; highlight: string }[];
+  campusLinks: { name: string; slug: string; highlight: string; image?: string }[];
   sharedContent: {
     methodology: string;
     methodologyItems: string[];

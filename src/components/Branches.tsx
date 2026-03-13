@@ -13,12 +13,12 @@ export default function Branches({ data, campusName }: Props) {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Branches */}
           <div>
-            <span className="badge mb-4">Brans Dersleri</span>
+            <span className="badge mb-4">Branş Dersleri</span>
             <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4 mb-2">
-              Tum Branslar Egitim Ucretine Dahildir
+              Tüm Branşlar Eğitim Ücretine Dahildir
             </h2>
             <p className="text-brand-gri leading-relaxed mb-8">
-              Cocugunuzun farkli alanlarda deneyim kazanmasi icin tasarlanmis zengin brans programimiz.
+              Çocuğunuzun farklı alanlarda deneyim kazanması için tasarlanmış zengin branş programımız.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
@@ -53,9 +53,9 @@ export default function Branches({ data, campusName }: Props) {
 
           {/* Daily Schedule */}
           <div>
-            <span className="badge mb-4">Gunluk Akis</span>
+            <span className="badge mb-4">Günlük Akış</span>
             <h2 className="font-display font-bold text-2xl md:text-3xl text-brand-koyu mt-4 mb-8">
-              Dusler Satosu {campusName}&apos;de Bir Gun
+              Düşler Şatosu {campusName}&apos;de Bir Gün
             </h2>
 
             <div className="space-y-0">
