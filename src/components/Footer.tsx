@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Instagram, Facebook, Youtube } from "lucide-react";
 
 export default function Footer() {
@@ -10,12 +11,16 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-pembe to-brand-mor flex items-center justify-center text-white font-bold text-lg font-display">
-                DŞ
-              </div>
+              <Image
+                src="/images/logo.png"
+                alt="Düşler Şatosu Anaokulu"
+                width={48}
+                height={48}
+                className="w-12 h-12"
+              />
               <div>
                 <div className="font-display font-bold text-sm">Düşler Şatosu</div>
-                <div className="text-xs text-gray-400">Anaokulu — 24 Yıldır</div>
+                <div className="text-xs text-gray-400">Anaokulları — 24 Yıldır</div>
               </div>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">

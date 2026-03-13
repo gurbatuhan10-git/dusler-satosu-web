@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     description:
       "Ataşehir'de 3 kampüste, 24 yıllık deneyimle çocuk merkezli eğitim.",
   },
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   robots: {
     index: true,
     follow: true,

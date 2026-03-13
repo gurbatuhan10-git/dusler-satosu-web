@@ -75,6 +75,17 @@ export default function Hero({ data, campusName }: Props) {
               <div className="text-xs text-brand-gri">Deneyim</div>
               <div className="font-display font-bold text-2xl text-brand-pembe">24 Yıl</div>
             </div>
+            {/* Timi mascot */}
+            <div className="hidden lg:block absolute -top-6 -right-6 w-20 h-20 opacity-20">
+              <Image
+                src="/images/timi-mascot.png"
+                alt=""
+                width={80}
+                height={80}
+                className="w-full h-full object-contain"
+                aria-hidden="true"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 
 const campusItems = [
@@ -21,15 +22,19 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
       <div className="container-custom flex items-center justify-between h-16 md:h-20 px-4 md:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-pembe to-brand-mor flex items-center justify-center text-white font-bold text-lg font-display">
-            DŞ
-          </div>
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/images/logo.png"
+            alt="Düşler Şatosu Anaokulu"
+            width={48}
+            height={48}
+            className="w-10 h-10 md:w-12 md:h-12"
+          />
           <div className="hidden sm:block">
             <div className="font-display font-bold text-brand-koyu text-sm leading-tight">
               Düşler Şatosu
             </div>
-            <div className="text-xs text-brand-gri">Anaokulu</div>
+            <div className="text-xs text-brand-gri">Anaokulları</div>
           </div>
         </Link>
 
